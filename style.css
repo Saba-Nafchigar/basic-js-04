@@ -1,0 +1,18 @@
+span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    line-height: 50px;
+    text-align: center;
+    /* background-color: rgb(218, 136, 197); */
+    margin: 2px;
+    font-weight: 900;
+}
+
+div{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
