@@ -1,8 +1,8 @@
 // 5 : 5 * 4 * 3 * 2 * 1
 function factorial_1(y){ // x=5
     mul = y
-    for(let i = 1 ; i < y ; i++){ // mul=1 , 2 , 3 , 4 , 5
-        mul= i*mul // 9 , 18 , 54 , 120 , 600
+    for(let i = 1 ; i < y ; i++){ // mul=1 , 2 , 3 , 4 
+        mul= i*mul // 9 , 18 , 54 , 120 
     }
     console.log(mul);
 }
